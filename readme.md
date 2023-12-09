@@ -2,6 +2,9 @@
 # Bed and Breakfast Application
   This is a bookings and reservation web application for a bed and breakfast. It is built using the Go programming language.
   
+## Link to the website
+- In order to access the website directly, visit http://ec2-54-176-175-249.us-west-1.compute.amazonaws.com:8089
+
 ## Features
 -  __User Authentication__: Users are required to log in with a username before they can access the application.
 - __Make Reservation__: Users can make a reservation from a specified start date to end date.
@@ -36,8 +39,7 @@ To run the application locally, follow these steps:
 9. __Open your web browser__
    - Visit ```http://localhost:8080``` to access the application.
 
-## Link to the website
-- In order to access the website directly, visit http://ec2-54-176-175-249.us-west-1.compute.amazonaws.com:8089
+
 
 
 
