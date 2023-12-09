@@ -15,7 +15,9 @@ The application incorporates the following technologies:
 
 - __Go__: A programming language used for building the backend server and handling business logic.
 - __HTML/CSS__: Implement frontend webpages.
-
+- __AWS EC2__: Cloud platform used to host web application.
+- __Docker__: Containerization technology used to automate deployment of application.
+- 
 ## Setup Instructions
 To run the application locally, follow these steps:
 
