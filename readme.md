@@ -24,12 +24,20 @@ To run the application locally, follow these steps:
 1. __Clone the repository__
 2. __Navigate to the project directory__ 
 3. __Install Go and dependencies__
-4. __Run shell script run.sh__:
-   - Run the shell script called run.sh
-5. __Open your web browser__ and visit ```http://localhost:8080``` to access the application.
+4. __Install PostgreSQL and create a database called bookings__
+5. __Install soda__
+   - Instructions to install: https://github.com/elsevierlabs-os/soda/blob/master/docs/installation.md
+6.  __Generate the database schema using migration files__
+   - Run the command: "soda migrate"
+7.  __Build the project__
+   - Run the command: "go build -o bookings cmd/web/*.go"
+8. __Run the program__
+   - Run the shell script called run.sh by typing in "./run.sh"
+9. __Open your web browser__
+   - Visit ```http://localhost:8080``` to access the application.
 
 ## Link to the website
-http://ec2-54-176-175-249.us-west-1.compute.amazonaws.com:8089
+- In order to access the website directly, visit http://ec2-54-176-175-249.us-west-1.compute.amazonaws.com:8089
 
 
 
